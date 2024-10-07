@@ -4,7 +4,7 @@ import axios from 'axios';
 import './App.css';
 import SearchBar from './components/SearchBar.jsx';
 
-const API_URL = 'https://react-crud-server-yn26.onrender.com';
+const API_URL = 'https://react-crud-server-yn26.onrender.com/notes';
 
 const NoteList = ({ fetchNotes, notes }) => {
   const navigate = useNavigate();
